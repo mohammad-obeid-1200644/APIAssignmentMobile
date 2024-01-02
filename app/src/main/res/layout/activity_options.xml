@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Options"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/optionsimg"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose what do u want"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textColor="@color/cyne"
+        />
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activities generator"
+            android:textStyle="italic"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="barcodeclk"
+            android:background="@color/cyne"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jokes generator"
+            android:textStyle="italic"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="memesclk"
+            android:background="@color/cyne"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advice generator"
+            android:textStyle="italic"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="adviceclk"
+            android:background="@color/cyne"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

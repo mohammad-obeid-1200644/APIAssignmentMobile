@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Bored"
+android:orientation="vertical"
+android:layout_gravity="center"
+android:background="@drawable/boredimg"
+    >
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/arrowback"
+        android:id="@+id/imgbk"
+        android:onClick="clkback"
+        android:layout_marginRight="100dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I'm Bored"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@color/cyne"
+        android:textStyle="bold|italic"
+
+        />
+
+</RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select how many participants"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/brown"
+        android:textStyle="italic"
+
+        />
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spn"
+        android:textAlignment="center"
+        android:scrollbarSize="20sp"
+        android:layout_gravity="center"
+        android:entries="@array/entspn"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate me an Activity"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:onClick="searchclk"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newacttxt"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        />
+
+
+</LinearLayout>
